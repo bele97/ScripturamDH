@@ -1,0 +1,41 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+	    <fileDesc>
+		    <titleStmt>
+			    <title>Pergamena n. 382</title>
+			</titleStmt>
+			<authorSmtm>
+				<author>Giovanni di Lorella</author>
+			</authorSmtm>
+			<history>
+			    <publicationStmt>
+				    <date>1402-12-12</date>
+                </publicationStmt>
+			    <location>
+				    <placeName>Savona</placeName>
+			    </location>
+			</history>
+			<editionStmt>
+                Riferimento online:
+				<name>Archivio Digitale</name>
+				Trascrizione digitale:
+				<name xml:id="#AB">Andrea Belegni</name>
+			</editionStmt>
+			<sourceDesc>
+				<biblFull>
+					<titleStmt>
+					    <title>Pergamena n. 382</title>
+					</titleStmt>
+					<authorStmt>
+						<author>Giovanni di Lorella</author>
+					</authorStmt>
+				</biblFull>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>	
+		<body>	
+		    La <index indexname="filologia" respStmt="#AB">scrittura cancelleresca</index> è una grafia che nasce dal contesto documentario delle cancellerie per poi diffondersi anche nel contesto librario. <name type="persone" ref="https://viaf.org/viaf/54242991/">Ludovico degli Arrighi</name> presenta il nuovo tipo di carattere descrivendolo come un corsivo dal tratto elegante e funzionale, cercando di formalizzarne i vari aspetti calligrafici. Si tratta di una scrittura con discreto successo e per questo conosce una rapida diffusione. La scrittura cancelleresca identifica un ambiente molto più variegato e aperto nel contesto scrittorio: rispetto alle precedenti scritture, infatti, oltre che ad essere utilizzata da soggetti colti, verrà adoperata anche in contesti notarili e da scriventi occasionali. Le lettere caratterizzanti: "d" con l'asta ascendente caratterizzata da un'apicatura a bandiera; "g" con l'asta discendente che ripiega su se stessa. Tra il <date when="1200-1300">XIII-XIV sec.</date> la scrittura cancelleresca sarà fondamentale per l'alfabetizzazione italiana di tutti quei soggetti che conoscevano il volgare e che lo vedono utilizzato, oltre al latino, nella produzione. Una stilizzazione particolarmente diffusa in <name type="place">Piemonte</name>, per via delle influenze francesi, sarà la cosiddetta scrittura bastarda, caratterizzata dall'unione dello stile della textualis (evoluzione della scrittura gotica) e della scrittura cancelleresca. La sua massima diffusione si ha nel <date when="1500">XVI</date> sec.
+        </body>
+	</text>
+</TEI>

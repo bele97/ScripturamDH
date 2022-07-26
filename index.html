@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">		
+	<meta name="DC.Title" content="Scripturam">
+	<meta name="DC.Alternative" content="Una storia della scrittura nell'ambito della paleografia latina">
+	<meta name="DC.Creator" content="Andrea Belegni e Gaia Berettoni">
+  <meta name="DC.Subject" content="Filologia">
+  <meta name="DC.Subject" content="Paleografia">
+  <meta name="DC.Subject" content="Scrittura">
+  <meta name="DC.Subject" content="Storia">
+  <meta name="DC.Description" content="Il sito è pensato per essere d'ausilio agli studenti di materie umanistiche che vogliano approcciarsi allo studio della palografia per permettere loro di prendere familiarità con i diversi tipi di scrittura">
+  <meta name="DC.Publisher" content="Università di Bologna">
+  <meta name="DC.Date" content="2022-07-27">
+  <meta name="DC.Type" content="sito web">
+  <meta name="DC.Format" content="HTML/CSS">
+  <meta name="DC.Language" content="it">
+  <!--_-->
+  <title>Scripturam</title>
+  <!--_-->
+  <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https: //fonts.googleapis.com/css2? family= Quicksand:wght@300 & display=swap" rel="stylesheet">
+</head>
+<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Scripturam<p id="subtitle">Una storia della scrittura nell'ambito della paleografia latina</p></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active" aria-current="page" href="cronologia.html">Le scritture</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-current="page">
+            Navigazione</a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Carolina</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="raccoltaitem.html">Gotica</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="raccoltaitem2.html">Umanistica</a></li>
+      </ul>
+      </li>
+      </ul>
+      </li>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Cerca</button>
+      </form>
+      </div>
+      </div>
+    </nav>
+    <!--_-->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators mb-5">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      </div>
+      <div class="container-fluid">
+  	   <div class="row">
+  		  <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div id="carouselimg" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/sfondolibri.jpg" class="d-block w-100" alt="Manoscritto" width="500" height="700">
+      	<div class="carousel-caption d-none d-md-block mb-5">
+          <h2>Le scritture</h2>
+          <p>Esplora la storia, la diffusione, gli ambiti di utilizzo e le caratteristiche dei diversi tipi di scrittura</p>
+          <a href="cronologia.html"><button type="button" class="btn btn-success">Vai a "Le scritture"</button>
+        </div>
+      </div>
+    <div class="carousel-item">
+      <img src="img/foto1.jpg" class="d-block w-100" alt="Manoscritti" width="500" height="700">
+      <div class="carousel-caption d-none d-md-block mb-5">
+      	<h2>Navigazione</h2>
+      	<p>Esplora i documenti in base al tipo di scrittura</p>
+        <button type="button" class="btn btn-success" id="pulsante1">Vai a "Carolina"</button>
+        <a href="raccoltaitem.html"><button type="button" class="btn btn-success" id="pulsante2">Vai a "Gotica"</button></a>
+        <a href="raccoltaitem2.html"><button type="button" class="btn btn-success" id="pulsante2">Vai a "Umanistica"</button></a>
+      </div>
+    </div>
+    <div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+</header>
+<!--_-->
+<body>
+  <section>
+    <div class="col-md-1"></div>
+    <div class="container-fluid pb-5 pt-5">
+      <div class="row">
+		    <div class="col-md-1"></div>
+	        <div class="col-md-10"><h3><strong>Il Progetto</strong></h3>
+		      <p id="descrizione"><i>Scripturam. Una storia della scrittura nell'ambito della paleografia latina.</i> Questo progetto si pone come obiettivo quello di raccogliere, attraverso la digitalizzazione e la metadatazione di file di immagini e di testo, documenti redatti con i diversi tipi di scrittura studiati nell'ambito della paleografia latina. Nella sezione <strong>Le scritture</strong> è possibile esplorare la storia, la diffusione, gli ambiti di utilizzo e le caratteristiche dei diversi tipi di scrittura. I principali gruppi di scritture presi in esame sono la <strong>Carolina</strong>, la <strong>Gotica</strong> e l'<strong>Umanistica</strong>. Il sito è pensato principalmente per essere d'ausilio agli studenti di materie umanistiche che vogliano approcciarsi allo studio della palografia per permettere loro di prendere familiarità con i diversi tipi di scrittura in maniera diretta.</p>
+          </div>
+	  <div class="col-md-1"></div>
+    </div>
+    </div>
+  </section>
+</body>
+<!--_-->
+<footer>	
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div class="row align-items-center">
+          <h6>Maggiori Informazioni</h6>
+          <br>
+          <ul>
+            <h1><a href="" style="color:white;">Chi siamo</a></h1>
+            <h1><a href="" style="color:white;">Collabora</a></h1>  
+            <h1><a href="" style="color:white;">Iscriviti alla Newsletter</a></h1>
+            <h1><a href="" style="color:white;">Termini di utilizzo</a></h1>
+            <h1><a href="" style="color:white;">Informativa sulla privacy</a></h1>
+          </ul>
+          </div>
+      </div> 
+      <div class="col-sm">
+        <div class="row align-items-center">
+          <h6>Social networks</h6>
+          <br>
+          <ul>
+            <h1><a href="#" style="color:white;">Facebook</a></h1>
+            <h1><a href="#" style="color:white;">Instagram</a></h1>  
+            <h1><a href="#" style="color:white;">Youtube</a></h1>
+            <h1><a href="#" style="color:white;">Telegram</a></h1>
+            <h1><a href="#" style="color:white;">Pinterest</a></h1>
+          </ul>
+        </div>  
+      </div>
+      <div class="col-sm">
+        <div class="row align-items-center">
+          <h6>Credits</h6>
+          <p><i>Il prototipo del sito &#232; stato pensato e realizzato da Andrea Belegni e Gaia Berettoni, come progetto per l'esame di Digital Humanities presso l'Universit&#224; di Bologna</i></p>
+          <p><i>email: andrea.belegni97@gmail.com</i></p>
+          <p><i>email: gaiaberettoni@gmail.com</i></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--_-->			
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>

@@ -1,0 +1,41 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+	    <fileDesc>
+		    <titleStmt>
+			    <title>Pergamena n. 74</title>
+			</titleStmt>
+			<authorSmtm>
+				<author>Papa Giulio III</author>
+			</authorSmtm>
+			<history>
+			    <publicationStmt>
+				    <date>1554-08-06</date>
+                </publicationStmt>
+			    <location>
+				    <placeName>Roma</placeName>
+			    </location>
+			</history>
+			<editionStmt>
+                Riferimento online:
+				<name>Archivio Digitale</name>
+				Trascrizione digitale:
+				<name xml:id="#GB">Gaia Berettoni</name>
+			</editionStmt>
+			<sourceDesc>
+				<biblFull>
+					<titleStmt>
+					    <title>Pergamena n. 74</title>
+					</titleStmt>
+					<authorStmt>
+						<author>Papa Giulio III</author>
+					</authorStmt>
+				</biblFull>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>	
+		<body>
+			La <index indexname="filologia" respStmt="#GB">scrittura umanistica</index> fu la grafia dell'alfabeto latino propria del periodo umanistico ed è il frutto di un'elaborazione cosciente da parte degli intellettuali del Tre-Quattrocento per reazione alla <index indexname="filologia" respStmt="#GB">scrittura gotica</index>. Fu <name type="person" ref="https://viaf.org/viaf/39382430/">Francesco Petrarca</name> a proporre per primo il superamento della scrittura del suo tempo. Giudicando la scrittura gotica artificiosa e faticosa da leggere, suggerì un tipo di scrittura che si rifacesse alla <index indexname="filologia" respStmt="#GB">minuscola carolina</index>, a suo avviso più sobria, elegante e gradevole alla lettura. Affinché i documenti fossero più comprensibili, occorreva in qualche modo staccare le lettere l'una dall'altra, allargare gli spazi tra le parole e distanziare le righe. Nel <date when="1400">XV secolo</date> gli umanisti (in particolare <name type="person" ref="https://viaf.org/viaf/19722038/">Poggio Bracciolini</name> e <name type="person" ref="https://viaf.org/viaf/69286472/">Niccolò Niccoli</name>) realizzarono la scrittura proposta dal Petrarca. Ammiratori della cultura classica, il loro intendimento era legare il presente con il passato e mantenere viva l'eredità intellettuale degli antichi. Adottarono come modello la scrittura minuscola carolina, che ritenevano fosse utilizzata dagli antichi, la perfezionarono e ne ottennero una "minuscola umanistica rotonda", che chiamarono littera antiqua. Tuttavia la scrittura umanistica non si sviluppò in maniera omogenea in <name type="place">Italia</name>. Alcune zone della penisola come il ducato di <name type="place">Milano</name> (dove vigeva la longobarda) e il Regno di <name type="place">Napoli</name> (dove vigeva la gotica) la recepirono più tardi, verso la fine del secolo. Nella <date>seconda metà del Cinquecento</date> venne adottata in tutta l'<name type="place">Europa</name>, tranne che nell'area germanica, dove l'uso del gotico (Fraktur) rimase maggioritario per altri secoli. A partire dagli anni sessanta del XV secolo si diffuse in Italia l'arte della stampa a caratteri mobili, importata dalla <name type="place">Germania</name>. I tipi di carattere furono disegnati sul modello della scrittura in uso all'epoca: gotica in ambito germanico e umanistica in ambito italiano. La stampa inizialmente ebbe un certo peso nella diffusione di questa scrittura. Nel corso del <date when="1500">XVI secolo</date> tuttavia le stampe divennero sempre più semplici e la scrittura umanistica si semplificò fino a trasformarsi nell'odierna scrittura scolastica. I variopinti capilettera tipici della scrittura gotica e della prima scrittura umanistica scomparvero nel corso del secolo, sostituiti da capitali rustiche essenzialmente monocromatiche.
+		</body>
+	</text>
+</TEI>

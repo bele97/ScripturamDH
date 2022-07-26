@@ -1,0 +1,21 @@
+<raccolta xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xml:id="raccolta">
+	<item n="1" id="Pergamena n. 74">
+        <metadati>
+			<dc:title>Pergamena n. 74</dc:title>
+			<dc:subject ref="http://id.loc.gov/authorities/subjects/sh85097964">Pergamena</dc:subject>
+			<dc:description>Breve di papa Giulio III in cui il pontefice stabilisce le prammatica nel vestire</dc:description>
+			<dc:creator ref="https://viaf.org/viaf/36912739/">Papa Giulio III</dc:creator>
+			<dc:date>1554-08-06</dc:date>
+			<dc:type>Text</dc:type>
+			<dc:format>Pergamena</dc:format>
+			<dc:language>Latino</dc:language>
+			<dc:coverage ref="http://www.geonames.org/3169070/rome.html">Roma</dc:coverage>
+			<dc:contributor ref="https://www.icar.beniculturali.it/home">ICAR</dc:contributor>
+			<dc:type>Image</dc:type>
+			<dc:format>JPG</dc:format>	
+			<dc:identifier tipo="digitale" ref="https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/242754">Archivio Digitale</dc:identifier>
+		    <dc:identifier tipo="Unità documentaria">ICAR UD 242754</dc:identifier>
+			<dc:identifier tipo="Codice identificativo">131400900</dc:identifier>
+		</metadati>
+	</item>
+</raccolta>

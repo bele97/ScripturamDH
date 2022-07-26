@@ -1,0 +1,21 @@
+<raccolta xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xml:id="raccolta">
+	<item n="1" id="Pergamena n. 382">
+        <metadati>
+			<dc:title>Pergamena n. 382</dc:title>
+			<dc:subject ref="http://id.loc.gov/authorities/subjects/sh85097964">Pergamena</dc:subject>
+			<dc:description>Giovanni di Lorella, di Millesimo, si impegna a pagare 48 fiorini come prezzo della vendita di due muli a Franchino di Ursaria</dc:description>
+			<dc:creator>Giovanni di Lorella</dc:creator>
+		    <dc:date>1402-12-12</dc:date>
+			<dc:type>Text</dc:type>
+			<dc:format>Pergamena</dc:format>
+			<dc:language>Latino</dc:language>
+			<dc:coverage ref="http://www.geonames.org/3167022/savona.html">Savona</dc:coverage>
+			<dc:contributor ref="https://www.icar.beniculturali.it/home">ICAR</dc:contributor>
+			<dc:type>Image</dc:type>
+			<dc:format>JPG</dc:format>	
+			<dc:identifier tipo="digitale" ref="https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/242754">Archivio Digitale</dc:identifier>
+			<dc:identifier tipo="Unità documentaria">ICAR UD 243429</dc:identifier>
+			<dc:identifier tipo="Codice identificativo">131401213</dc:identifier>
+	    </metadati>
+	</item>
+</raccolta>
